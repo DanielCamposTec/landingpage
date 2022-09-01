@@ -1,0 +1,207 @@
+*{
+    margin:0 ;
+    padding:0 ;
+
+
+
+}
+/*estilizar a Nav da classe menu */
+
+.menu{
+    width: 100%;
+    height: 50px;
+    background-image: url(./back_lasa.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+
+ 
+}
+
+/*estilizar as listasr ul e li */
+.menu ul{
+    list-style: none;
+    position: relative;
+
+}
+
+.menu li{
+   width: 150px;
+   float: right;
+    
+}
+
+.menu a{
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+}
+
+.menu ul img{
+width: 146px;
+height: 50px;
+float: left;  
+    
+}
+
+.menu a:hover{
+    background-color: rgb(133, 133, 133);
+}
+
+.menu ul ul{
+   position: absolute;
+   visibility: hidden;
+  
+}
+
+.menu ul li:hover ul{
+
+    visibility: visible;
+    
+ }
+
+ .menu ul ul li{ 
+    float: none;
+    border-bottom: 1px solid #ccc;
+    }
+
+    .menu ul ul li a{ 
+       background-color: #069;
+    }
+
+
+    .content-esquerdo {
+        width:40%;
+        height: 700px;
+        float:left;
+    
+        
+        }
+h1{
+    color: #fff;
+    padding-top: 100px;
+    padding-left: 150px;
+    font-size: 40px;
+    font-family: roboto;
+    opacity: 85%;
+}
+
+h4{
+    color: #fff;
+    padding-top: 20px;
+    padding-left: 150px;
+    padding-right: 150;
+	font-weight: bold;
+	font-size: 20px;
+	font-family: roboto;
+    opacity: 85%;
+}
+
+
+.content-direito{
+ 
+            width:60%;
+            height: 700px;
+          
+            float: right;
+             
+            }
+        
+        .vinho {
+         margin-top: 150px;
+         margin-left: 100px;
+          }
+
+          .lasanha{
+            
+            margin-top: 150px;
+            margin-left: 50px;
+          }
+          .lasanha:hover {
+          scale: 1.05;
+          transition: all linear 0.3s;
+          }
+        
+        .vinho:hover {
+            transform: rotate(3deg);
+            transition: all linear 0.1s;
+            scale: 1.02;
+
+          
+        }    
+
+     div{width: 1519px;
+        height:720px;
+        background-image:url("./back_lasa.jpg");
+        background-position: center;
+        background-size: 1400px 880px;}   
+
+.btn_cadastro {
+    width: 180px;
+    text-align: center;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 190px;
+    background-color: rgb(255, 244, 90);
+    color: rgb(92, 92, 90);
+    border: rgb(74, 72, 62);
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 20px;
+	font-family: roboto;
+}
+
+.btn_cadastro:hover {
+ 
+
+    background-color: rgb(204, 195, 68);
+
+}
+
+
+input[type=submit]{
+    width: 95%;
+    height: 35px;
+    background-color: #ffffff;
+    color:black;
+    cursor:pointer;
+    }
+
+    .forms{
+        margin-top: 50px;
+        width: 100%;
+        height: 200px;
+        float: left;
+        background-color: rgb(225, 226, 226);
+        box-sizing: border-box;
+        padding: 10px 10px;
+    
+    }
+    
+    form{
+    width: 100%;
+    
+    }
+   
+    input{
+        margin-top: 5px;
+        width: 95%;
+        height: 40px;
+        font-size: 16px;
+        border-radius: 7px;
+        box-shadow: inset 0 0 2px 2px #ccc;
+        box-sizing: border-box;
+        background-color: white;
+        border: none;
+        padding: 10px;
+    }
+    
+    input:focus{
+        outline: none;
+    }
+    
+
+
+
+
+ 
